@@ -64,3 +64,15 @@ In this project, I have these 4 main findings. The first is that logistic regres
 If someone wants to use my solution, I would recommend them to spend enough time on the selection of features. The selected features are highly related to dataset, so it is crucial for them to investigate feature properties and associations and make careful selections when they use my solution for other datasets.
 
 If I have more data, I would test logistic regression model with them and then compared with other advanced models like LGBM. Again before doing this, I will run the tests for many times to figure out the the best features which can be used for prediction model. In addition, I will handle the missing data better when I have more dataset, maybe fill missing data with the help of more supporting data. If the company seeks to run my method at high scale, I think they need consider operation speed. When the dataset is very large, the model will become slow and they may need run the model in distributed environment. Also they may want to run feature selection and prediction models for many times in order to obtain a reliable results in practice.
+
+## References
+
+[1] Lee, T. S., Chiu, C. C., Chou, Y. C., & Lu, C. J. (2006). Mining the customer credit using classification and regression tree and multivariate adaptive regression splines. Computational Statistics & Data Analysis, 50(4), 1113-1130.
+
+[2] Credit Risk Assessment using Statistical and Machine Learning: Basic Methodology and Risk Modeling Applications link
+
+[3] Wang, Y., Wang, S., & Lai, K. K. (2005). A new fuzzy support vector machine to evaluate credit risk. IEEE Transactions on Fuzzy Systems, 13(6), 820-831.
+
+[4] Khandani, A. E., Kim, A. J., & Lo, A. W. (2010). Consumer credit-risk models via machine-learning algorithms. Journal of Banking & Finance, 34(11), 2767-2787.
+
+[5] Lai, K. K., Yu, L., Zhou, L., & Wang, S. (2006, July). Credit risk evaluation with least square support vector machine. In International Conference on Rough Sets and Knowledge Technology (pp. 490-495). Springer, Berlin, Heidelberg.
